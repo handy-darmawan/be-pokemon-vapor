@@ -1,10 +1,10 @@
-// swift-tools-version:5.10
+// swift-tools-version:5.9
 import PackageDescription
 
 let package = Package(
     name: "pokemon",
     platforms: [
-       .macOS(.v13)
+        .macOS(.v13)
     ],
     dependencies: [
         // 💧 A server-side Swift web framework.
